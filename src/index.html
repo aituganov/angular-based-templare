@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<title>Angular based template</title>
+
+	<!--<link rel="icon" href="img/favicon.ico" type="image/x-icon"/>-->
+
+	<!--external dep-->
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<script src="bower_components/angular/angular.min.js"></script>
+	<script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+	<script src="bower_components/spin.js/spin.js"></script>
+	<script src="bower_components/angular-spinner/angular-spinner.min.js"></script>
+
+	<link rel="stylesheet/less" type="text/css" href="app.less"/>
+	<script src="bower_components/less/dist/less.min.js"></script>
+
+	<!--Angular files-->
+	<script src="app.js"></script>
+	<script src="directives/main/main.js"></script>
+</head>
+<body ng-app="AngularApp">
+	<section class="container">
+		<tmpl-main class="col-md-12"></tmpl-main>
+	</section>
+</body>
+</html>
